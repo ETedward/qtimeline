@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <title>QAnon Timeline</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="index.js"></script>
+  <!-- <script src="image.js"></script> -->
+  </head>
+  
+  <body>
+  <div class="intro">
+      <h3 class="subhead">Bellingcat Graphics</h3>
+      <br>
+      <h1>The QAnon Timeline</h1>
+      <div class="text">
+        <p> QAnon emerged from the ashes of Pizzagate &mdash; a debunked theory that Hillary Clinton operated a child sex-trafficking ring out of the basement of a D.C. pizza restaurant. Shedding the Achilles heel of Pizzagate, it&rsquo;s specitivity and physical location, QAnon has evolved into a blanket conspiracy &mdash; adopting others into its fold. 
+        <a id = demo onclick = "myFunction()"> <span class = "read-more"> <u>Read More</u> </span></a>
+        </p> 
+      </div>
+      <hr> 
+
+      <section id = "timeline">
+      <table>
+      <tr>
+      <!-- Pictures -->
+      <td style = "padding-right: 20px">
+      <h2>Month Here</h2>
+      <br>
+      <img id = "img1" src= "wordClouds/october2017.png" style="width:490px;height:260px;"> 
+      <img id = "img2" src= "wordClouds/nov2017.png" style="width:490px;height:260px;display:none;"> 
+      <img id = "img3" src= "wordClouds/dec2017.png" style="width:490px;height:260px;display:none;"> 
+      <img id = "img4" src= "wordClouds/jan2018c.png" style="width:490px;height:260px;display:none;"> 
+
+      <p> Timeline Pictures Text Here</p>
+        <br>
+        <br>
+        <br>
+      </td>
+
+      <!-- Row Two -->
+      <td>
+      <div class="scrollcontainer" onscroll="image2()">
+        <p> Posts from "Q" known as "Qdrops" form the central tenants of the conspiracy theory. The following timeline summary and wordmaps are formed from analyzing the 4952 Qdrops between October 2017 to November 2020. </p> 
+        <hr>
+        <p>The first documented Q drop emerged on October 28, 2017 under the /pol/ sub board of 4chan, the &ldquo;politically incorrect&rdquo; and anonymous board notorious for its grotesque content and memes.&nbsp;</p>
+        <p>Seventeen Q drops appeared within four days in October. These posts were attributed to Q through their tripcode, a unique identifier on 4chan that proves a series of anonymous posts were written by the same person or people.</p>
+        <p>From the first two words of the drops (&ldquo;HRC extradition&rdquo;), QAnon was recycling ideas from Pizzagate, that Hillary Clinton was a member of child sex trafficking cabal. The next seventeen posts established Donald Trump&rsquo;s role in the theory, as the central hero bent on exposing the cabal, and introduced &ldquo;operation mockingbird,&rdquo; an alleged plot by mainstream media to hide the global elites' satanic crimes through fake news.</p>
+        <p>Notably, many of the initial Q drops are phrased as a series of questions; that generate engagement among followers of the conspiracy theory.</p>
+        <img id = "drop1" src = "drops/drop1.png" style = "width:350px">
+        <hr>
+
+        <p>November 2017</p>
+        <p>223 QAnon drops appeared in November 2017. A majority of the November drops expanded upon previous theories on Hillary Clinton, and added to the cast of characters with conspiracy theories regarding Huma (Clinton&rsquo;s political aid during the 2016 campaign), Barack Obama, Iran, and Saudi Arabia.</p>
+        <p>Many key terms within the conspiracy theory were also introduced, such as &ldquo;Alice and Wonderland,&rdquo; code for &ldquo;Hillary Clinton and Saudi Arabia.&rdquo; &ldquo;Antifa,&rdquo; a political terminology now popularized in American politics, also emerged with its first use by Q on October 30, 2017.</p>
+        <p>Notable Developments:</p>
+        <p>Conspiracy theories emerge that Barack Obama and Hillary Clinton were beholden to Saudi interests, particularly owing money to Bin Talal, a Saudi prince and businessman.</p>
+        <p>Conspiracy theories emerge regarding collusion between the Obama administration and Iran and North Korea, regarding secretly enabling their nuclear weapons programs.</p>
+        
+        <hr>
+        <p>December 2017, Notable Developments</p>
+        <img id = "drop3" src = "drops/dropDec.png" style = "width:350px">
+        <p>John McCain joins the cast of bad actors in the QAnon theory, alongside Hillary Clinton and Barack Obama, for alleged connections to terrorists, the Free Syrian Army, and Saudi Arabia.</p>
+        <p>The QAnon community is excited by the possibility of external validation, where a government press release entitled &ldquo;United States Sanctions Human Rights Abusers and Bad Actors Across the Globe,&rdquo; is believed to be authored by Q.&nbsp;&nbsp;</p>
+        <p>https://twitter.com/ABCPolitics/status/943866651803611136</p>
+        <p>Barack Obama, also referred to as &ldquo;Hussein&rdquo; in the QAnon community, is given the codename &ldquo;renegade&rdquo; and is accused of being a traitor to the United States.</p>
+        <p>Instead of it&rsquo;s singular focus on corrupt individuals, the theory evolves to target organizations, including the Red Cross, whose Haitian office is believed by Qanon followers to be a hotspot for child trafficking.</p>
+
+        <hr>
+        <p>January 2018, Notable Developments</p>
+        <p>Donald Trump is believed to speak directly to the QAnon community via Twitter. The &ldquo;evidence&rdquo; was that Trump had misspelled a tweet, then corrected the word &ldquo;consentual&rdquo; to &ldquo;consequential.&rdquo; 8kun boards bursted discussions regarding the added &ldquo;q&rdquo;, and a later Q drop affirmed for the community their connection with Trump.</p>
+        <p>The QAnon community migrates to the 8chan message boards after 4chan closes. Q re-establishes its authority, and confirms a tripcode on the new platform, but suspicions arise regarding Q&rsquo;s identity.</p>
+        <p>Edward Snowden, whose initial role in the theory is controversial, is believed to be a CIA plant in the NSA, with the CIA allegedly a tool of the corrupt cabal.</p>
+        <p>In the world outside of conspiracies, the US government enters a 35 day shutdown, and special counsel Robert Mueller leads an investigation into possible collusion between Russia and the Trump campaign during the 2016 election. Both issues affect the topics of Q drops.</p>
+        <p>Top Topics:</p>
+        <p>Robert Mueller</p>
+        <p>Fake News</p>
+        <p>Russia</p>
+        <p>Rod Rosenstein</p>
+      
+      </div>
+      <!-- <script> 
+        jQuery(function($) { 
+            $('.scrollcontainer').on('scroll', function() { 
+                if ($(this).scrollTop() + 
+                    $(this).innerHeight() >=  
+                    $(this)[0].scrollHeight) { 
+                    
+                    alert('End of DIV is reached!'); 
+                } 
+            }); 
+        }); 
+    </script>  -->
+      </td> 
+      </tr>
+      </table>
+      </section>
+      <hr>
+      <div class = "part3">
+        <section class="methodology collapsible">
+          <h3 class="trigger" onclick="glossary()">Glossary &#x25BA;</h3>
+            
+            <div id="glossaryContent" style = "display: none;">
+              <ul>
+                <p>The following terms are used internally by QAnon followers as coded references to certain events and phrases within the conspiracy theory. Definitions are not factually based.</p>
+          <ul>
+          <li><span style="font-style: italic;">Alice and Wonderland</span> &ndash; Hillary Clinton and Saudi Arabia</li>
+          <li><span style="font-style: italic;">Spirit Cooking</span> &ndash; Satan Worship</li>
+          <li><span style="font-style: italic;">Snow White</span> &ndash; Spy</li>
+          <li><span style="font-style: italic;">MS13</span> &ndash; Military wing of Washington that commit assassinations of whistle-blowers and witnesses and political opponents</li>
+          <li><span style="font-style: italic;">Operation Mockingbird</span> &mdash; large scale program allegedly operated by the CIA to manipulate news media for propaganda purposes</li>
+          <li><span style="font-style: italic;">Huma</span> &mdash; Huma Abedin vice chair of Hillary Clinton&rsquo;s 2016 presidential campaign, allegedly a Satan worshiper.&nbsp;</li>
+          <li><span style="font-style: italic;">HUMA</span> &mdash; Harvard University Muslim Alumni.</li>
+          <li><span style="font-style: italic;">Halliburton</span> &ndash; One of two companies that made massive profits from 9-11, the other was United Defence. Dick Cheney is on the Board of Directors.</li>
+          <li><span style="font-style: italic;">MSM</span> &ndash; means of propaganda for whoever controls it</li>
+          <li>Wizards and Warlocks &mdash;&nbsp;</li>
+          <li><span style="font-style: italic;">Bloody Wonderland</span> &mdash; Saudi Arabia</li>
+          <li><span style="font-style: italic;">Antifa</span> - Anti-Facists. Believed by Qanon followers to be Soros backed domestic terrorists.</li>
+          <li><span style="font-style: italic;">Hussein</span> - Barack Obama</li>
+          <li><span style="font-style: italic;">BOB</span> - Bob Mueller</li>
+          <li><span style="font-style: italic;">DS</span> - Deep State</li>
+          <li><span style="font-style: italic;">GS</span> - George Soros</li>
+          <li><em>Renegade</em> - USSS Codename for Barack Obama</li>
+          </ul>
+              </ul>
+            </div>
+        </section>
+        <br>
+        <section class="methodology collapsible">
+          <h3 class="trigger" onclick="method()">Methods &#x25BA;</h3>
+          <div id="methodContent" style = "display: none;">
+            <ul>
+              <p>Bellingcat investigators obtained in August a document containing the entire subset of Q drops.&nbsp;</p>
+              <p><span style="color: #222222;">The dataset was found on 8kun, and is used by Q followers as a central location to research and comment on Q drops. It contains posts dating back to 2017, when QAnon theories remained on the fringes of the internet.&nbsp;</span></p>
+              <p>A copy of the dataset is available here.</p>
+              <p>Using an academically recognized text classification model, the <a href="https://tfhub.dev/google/universal-sentence-encoder/1" target="_blank" rel="noopener">Universal Sentence Encoder</a>, we converted every Q drop into a vector (a list of numbers) in multidimensional space. Vectors have a property where taking their dot product represents their proximity in space, revealing the similarity in meaning between two sentences.</p>
+              <p>Take the following ten sentences from two seperate Q drops:</p>
+              <p>Mueller1: "There are Puppets. There are Puppet Masters. Which is [MUELLER]?",</p>
+              <p>Mueller2: "Attempt to replace [JC] as FBI Dir FAILED [attempt to regain FBI control].",</p>
+              <p>Mueller3: "[MUELLER] [Epstein bury &amp; cover-up].",</p>
+              <p>Mueller4: "[MUELLER] [plot to remove duly elected POTUS].",</p>
+              <p>Mueller5: "BIGGEST SCANDAL IN AMERICAN HISTORY. TREASON.",</p>
+              <p>FB1: "What is FB?",</p>
+              <p>FB2: "Spying tool?",</p>
+              <p>FB3: "Who created it?",</p>
+              <p>FB4: "Who really created it?",</p>
+              <p>FB5: "Nothing is what it seems."</p>
+              <p>Using this technique, we are able to obtain the similarity in meaning between pairs of sentences, as demonstrated in the plot below.</p>
+              <p>The goal of this investigation is to illustrate key developments and discussions in the QAnon conspiracy theory across time. Thus, we split the data into subsets of one to three month intervals each containing around 200 Q drops.&nbsp;</p>
+              <p>For each subset, we ran an <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html" target="_blank" rel="noopener">agglomerate clustering algorithm</a> that grouped sentences with similar sentiment together. Using the results of the clustering, we listed the &ldquo;top topics&rdquo; of discussion, and summarized notable developments for each time period.</p>
+            </ul>
+          </div>
+        </section>
+        <br>
+        <section class="methodology collapsible">
+          <h3 class = "trigger">Acknowledgements</h3>
+            <div id="glossaryContent">
+              <ul>
+                Research Advisor: William Thompson, Princeton Cognitive Science Lab
+                <br> Investigative Advisors: Johanna Wild and Logan Williams, Bellingcat Tech Team
+              </ul>
+            </div>
+        </section>
+      </div>
+  
+  
+  </div>
+  </body>
+</html>
